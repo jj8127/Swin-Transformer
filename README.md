@@ -109,7 +109,7 @@ Swin Transformer는 ViT의 단점을 보완하기 위해 **윈도(window)** 단�
 
 1. **문제점**
    - Window 경계끼리의 Attention이 불가능.
-  ![스크린샷 2024-12-28 123637](https://github.com/user-attachments/assets/ee266e5f-bb9c-46bc-be65-59123d5fb62f)
+<img src="https://github.com/user-attachments/assets/ee266e5f-bb9c-46bc-be65-59123d5fb62f" alt="스크린샷" width="500">
 
      
 2. **Shift Window 개념 도입**
@@ -151,13 +151,15 @@ $$
 - \( B \): Relative Position Bias
 
 ### Relative Position Bias 계산 예시
-![Relative Position Bias 예시](relative_position_bias_example.png)
+![스크린샷 2024-12-30 001355](https://github.com/user-attachments/assets/abbb7cdd-7ab8-4c86-b7ba-d825bdc13bd5)
+
 
 ---
 
 ## 7. Swin Transformer 구조
+![스크린샷 2024-12-30 003124](https://github.com/user-attachments/assets/8b123600-0595-4020-9062-e1d69525c2c7)
 
-![Swin Transformer 구조](swin_transformer_structure.png)
+
 
 ### ① Patch Partition
 
