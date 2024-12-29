@@ -109,7 +109,7 @@ Swin Transformer는 ViT의 단점을 보완하기 위해 **윈도(window)** 단�
 
 1. **문제점**
    - Window 경계끼리의 Attention이 불가능.
-<img src="https://github.com/user-attachments/assets/ee266e5f-bb9c-46bc-be65-59123d5fb62f" alt="스크린샷" width="100">
+<img src="https://github.com/user-attachments/assets/ee266e5f-bb9c-46bc-be65-59123d5fb62f" alt="스크린샷" width="250">
 
      
 2. **Shift Window 개념 도입**
