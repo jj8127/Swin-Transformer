@@ -109,25 +109,22 @@ Swin Transformer는 ViT의 단점을 보완하기 위해 **윈도(window)** 단�
 
 1. **문제점**
    - Window 경계끼리의 Attention이 불가능.
-<img src="https://github.com/user-attachments/assets/ee266e5f-bb9c-46bc-be65-59123d5fb62f" alt="스크린샷" width="250">
+   - <img src="https://github.com/user-attachments/assets/ee266e5f-bb9c-46bc-be65-59123d5fb62f" alt="스크린샷" width="250">
 
      
 2. **Shift Window 개념 도입**
    - 윈도를 Shift하여 경계 간 상호작용 수행.
    - <img src="https://github.com/user-attachments/assets/81786b8b-6f7a-416b-90ca-ba34e011e35c" alt="스크린샷" width="250">
-   - ![스크린샷 2024-12-28 123706]()
    - <img src="https://github.com/user-attachments/assets/19bb180b-1f1d-4743-9f93-130c2f47b3ce" alt="스크린샷" width="250">
 
    - Shift 후 연산량 증가 문제 해결을 위해 **Cyclic Shifting** 사용.
-   - ![스크린샷 2024-12-28 123753](https://github.com/user-attachments/assets/2bdecb9f-1d0e-4c0e-9961-e5812593623c)
+   - <img src="https://github.com/user-attachments/assets/2bdecb9f-1d0e-4c0e-9961-e5812593623c" alt="스크린샷 1" width="250">
 
    - Masking으로 연산량 효율 관리 및 상호작용 유지.
-   - ![스크린샷 2024-12-28 124223](https://github.com/user-attachments/assets/a316e49b-be7c-463b-b03d-d42f65421924)
-
+   - <img src="https://github.com/user-attachments/assets/a316e49b-be7c-463b-b03d-d42f65421924" alt="스크린샷 2" width="250">
 
    - Reverse Cyclic Shift로 원래 이미지 복원.
-   - ![스크린샷 2024-12-28 124249](https://github.com/user-attachments/assets/2cfb1b21-5784-4255-98cd-053f284aa0c5)
-
+   - <img src="https://github.com/user-attachments/assets/2cfb1b21-5784-4255-98cd-053f284aa0c5" alt="스크린샷 3" width="250">
 
 ---
 
